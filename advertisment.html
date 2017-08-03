@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html>
 <title>Welcome to our advertisment page</title>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+
 <style>
 html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
-.mySlides {display:none}
-.w3-tag, .fa {cursor:pointer}
-.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
 </style>
 <body>
 
 <!-- Links (sit on top) -->
 <!--good one-->
-<div class="w2-top">
-  <div class="w2-row w2-large w3-light-grey">
-    <div class="w3-col s2">
-      <a href="#" class="w3-button w3-block">Home</a>
+<nav class="navbar navbar-inverse">
+  <div  class ="container-fluid">
+    <div class="navbar-header">
+      <button type ="button" class="navbar-toggle collasped" data-toggle="collaspe" data-target="#navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class ="icon-bar"></span>
+        <span class ="icon-bar"></span>
+        <span class ="icon-bar"></span>
+      </button>
     </div>
-    <div class="w3-col s2">
-      <a href="#plans" class="w3-button w3-block">About us</a>
-    </div>
-    <div class="w3-col s2">
-      <a href="#aboutmealbot" class="w3-button w3-block">About Meal Bot</a>
-    </div>
-    <div class="w3-col s2">
-      <a href="#market" class="w3-button w3-block">Market analysis</a>
-    </div>
-    <div class="w3-col s2">
-      <a href="#Businesss" class="w3-button w3-block">Business plan</a>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class = "nav navbar-nav">
+        <li><a href="home.html">Home
+        </a></li>
+        <li><a href="about-product.html">About Product
+        </a></li>
+        <li><a href="about-us.html">About Us
+        </a></li>
+        <li><a href="finance.html">Finance
+        </a></li>
+        <li><a href="market.html">Market
+        </a></li>
+        <li><a href="advertisement.html">Advetisement
+        </a></li>
+      </ul>
     </div>
   </div>
-  <div class="w3-col s2">
-      <a href="#Advertisment" class="w3-button w3-block">Advertisment</a>
-    </div>
-  </div>
-</div>
+</nav>
 
 <!-- Content -->
 <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
@@ -54,21 +55,19 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <h3> Buy Our Product</h3>
     </div>
 
-    <div class="w3-second w3-margin-middle">
-      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Meal Bot</li>
-        <li class="w3-padding-16"><b>Fresh</b></il>
-        <li class="w3-padding-16"><b>hot</b></li>
-        <li class="w3-padding-16"><b>food</b></li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$30,000</h2>
+   <div>
+        <h2>Meal Bot makes fresh hot food.</h2>
+          <h2>$30,000</h2>
         </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-green w3-padding-large">buy now</button>
         </li>
       </ul>
     </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
   
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  
+  </script>
 </body>
 </html>

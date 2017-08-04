@@ -63,3 +63,10 @@
 	height:auto;
 
 }
+nav{
+	margin:0px !important; 
+}
+.jumbotron{
+	background-image: url(Mealbot2.jpg);
+	height: 145vh;
+}

@@ -70,3 +70,8 @@ nav{
 	background-image: url(Mealbot2.jpg);
 	height: 145vh;
 }
+
+img.mealbot {
+	width:300%;
+	height:300%;
+}
